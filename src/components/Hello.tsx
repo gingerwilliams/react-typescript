@@ -1,7 +1,7 @@
 import * as React from "react";
 
 interface HelloProps {
-    name: string;
+    name?: string;
     compiler: string;
     framework: string;
 }
